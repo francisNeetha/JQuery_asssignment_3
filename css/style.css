@@ -1,0 +1,62 @@
+.err_msg{
+    font-size: 13px;
+    color: red;
+    margin: 5px;
+}
+
+*{
+    color: #fff;
+}
+
+
+.heading {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    color: #000;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.container{
+    display: flex;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #000;
+  height: auto;
+  width: 400px;
+  margin: auto;
+  padding: 30px;
+  position: relative;
+  top: 100px;
+}
+
+.submitBtn{
+    border: none;
+    border-radius: 20px;
+    width: 80px;
+    height: 40px;
+    color: #000;
+}
+
+.same_input{
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: #000;
+    outline: none;
+    width: 350px;
+}
+
+label{
+    padding-top: 20px;
+}
+
+.status, .data{
+    color: #000;
+}
+
+.second{
+    margin-top: 180px;
+    text-align: center;
+    
+}

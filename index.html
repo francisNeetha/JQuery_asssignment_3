@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.7.1.js"></script>
+</head>
+<body>
+    <h1 class="heading">FeedBack Form</h1>
+    <div class="container">
+    <form id="detailsForm">
+        <label  for="fname">Name:</label><br>
+        <input class="same_input" type="text" id="fname" name="fname" minlength="3"><br><br>
+        <p class="err_msg" id="nameError">*Enter correct Name.</p><br>
+        
+        <label for="email">Email:</label><br>
+        <input class="same_input" type="email" id="email" name="email"><br><br>
+        <p class="err_msg" id="mailError">*Enter correct Email.</p><br>
+
+        <label for="feedback">Feedback:</label><br>
+        <textarea class="same_input" id="feedback" name="feedback" rows="2" cols="25" minlength="10" ></textarea><br>
+        <p class="err_msg" id="feedbackError">*Enter a valid Feedback</p><br>
+
+        <button class="submitBtn" type="submit">Submit</button>
+    </form>
+</div>
+<div class="second">
+<p class="status"></p>
+<p class="data"></p>
+</div>
+    <script src="js/script.js"> </script>
+</body>
+</html>
